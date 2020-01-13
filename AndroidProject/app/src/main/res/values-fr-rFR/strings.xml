@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Table</string>
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wednesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">Samedi</string>
+    <string name="sunday">Dimanche</string>
+
+    <!-- Navigation Drawer -->
+    <string name="settings">Options</string>
+    <string name="disconnect">Se déconnecter</string>
+    <string name="welcome_msg">Bienvenue %1$s</string>
+
+    <!-- Grades popup -->
+    <string name="reference">Référence :</string>
+    <string name="coef">Coefficient :</string>
+    <string name="average">Moyenne :</string>
+    <string name="module">Module :</string>
+    <string name="UE">UE :</string>
+    <string name="lModules">Liste des modules :</string>
+    <string name="lGrades">Liste des notes :</string>
+    <string name="lastUpdate">Les coefficients on été mis à jours pour la dernière fois dans la base de données le </string>
+
+    <string name="noGrades">Il n\'y a pas encore de notes</string>
+    <string name="unavailable">Non disponible</string>
+    <string name="notShared">Non diffusée</string>
+    <string name="na">n/a</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="emptyEmail">Veuillez entrer un identifiant</string>
+    <string name="emptyPassword">Veuillez entrer un mot de passe</string>
+    <string name="exam">Salle d\'examen</string>
+    <string name="grades">Notes</string>
+    <string name="unknown">inconnu</string>
+
+    <string name="dep">Département</string>
+    <string name="login">Se connecter</string>
+    <string name="loginTip">Connectez-vous avec vos identifiants IUT</string>
+    <string name="logo_desc">Logo de l\'IUT Informatique Rangueil, rouge et blanc</string>
+    <string name="password">Mot de passe</string>
+    <string name="wrongCred">Mot de passe ou identifiant incorrect</string>
+    <string name="ohno">Oh non !</string>
+    <string name="map">Plans</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="no_internet">Vous n\'avez pas de connexion à Internet</string>
+    <string name="timetable">Cours</string>
+    <string name="username">Identifiant</string>
+</resources>

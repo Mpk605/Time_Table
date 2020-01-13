@@ -1,0 +1,752 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #e8bf6a;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+&lt;androidx.core.widget.NestedScrollView <span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.MainActivity&quot;</span><span class="s0">&gt;</span>
+
+    &lt;LinearLayout
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+        &lt;LinearLayout
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+            &lt;TextView
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Bienvenue Jules Combelles&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+            &lt;TextView
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:layout_margin</span><span class="s2">=&quot;0dp&quot;</span>
+                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;21800000&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;20sp&quot; </span><span class="s0">/&gt;</span>
+
+            &lt;TextView
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;8dp&quot;</span>
+                <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;8dp&quot;</span>
+                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Vos notes pour 2019 - 2020 - Semestre S3 (S3E)&quot;</span>
+                <span class="s1">android:textAlignment</span><span class="s2">=&quot;center&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;20sp&quot; </span><span class="s0">/&gt;</span>
+
+        &lt;/LinearLayout&gt;
+
+        &lt;LinearLayout
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+            &lt;com.google.android.material.card.MaterialCardView
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;-8dp&quot;</span>
+                <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimaryDark&quot;</span>
+                <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;16dp&quot;</span><span class="s0">&gt;</span>
+
+                &lt;LinearLayout
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                    &lt;TextView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;UE 1&quot;</span>
+                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+                        <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                    &lt;com.google.android.material.card.MaterialCardView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;8dp&quot;</span>
+                        <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                        <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;8dp&quot;</span><span class="s0">&gt;</span>
+
+                        &lt;LinearLayout
+                            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                            &lt;TextView
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                <span class="s1">android:text</span><span class="s2">=&quot;M3101&quot;</span>
+                                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                                <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                            &lt;LinearLayout
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;8dp&quot;</span>
+                                <span class="s1">android:background</span><span class="s2">=&quot;@color/white&quot;</span>
+                                <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Java oral&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;2.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Java papier&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;5.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Java gravé&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;10&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+                            &lt;/LinearLayout&gt;
+                        &lt;/LinearLayout&gt;
+                    &lt;/com.google.android.material.card.MaterialCardView&gt;
+
+                    &lt;com.google.android.material.card.MaterialCardView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;8dp&quot;</span>
+                        <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                        <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;8dp&quot;</span><span class="s0">&gt;</span>
+
+                        &lt;LinearLayout
+                            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                            &lt;TextView
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                <span class="s1">android:text</span><span class="s2">=&quot;M3102&quot;</span>
+                                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                                <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                            &lt;LinearLayout
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;8dp&quot;</span>
+                                <span class="s1">android:background</span><span class="s2">=&quot;@color/white&quot;</span>
+                                <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Contrôle&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;2.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Contrôle TP&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;5.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+                            &lt;/LinearLayout&gt;
+                        &lt;/LinearLayout&gt;
+                    &lt;/com.google.android.material.card.MaterialCardView&gt;
+
+                    &lt;com.google.android.material.card.MaterialCardView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;8dp&quot;</span>
+                        <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                        <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;8dp&quot;</span><span class="s0">&gt;</span>
+
+                        &lt;LinearLayout
+                            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                            &lt;TextView
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                <span class="s1">android:text</span><span class="s2">=&quot;M3103&quot;</span>
+                                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                                <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                            &lt;LinearLayout
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;8dp&quot;</span>
+                                <span class="s1">android:background</span><span class="s2">=&quot;@color/white&quot;</span>
+                                <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Contrôle&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;2.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Examen Pratique&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;5.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+                            &lt;/LinearLayout&gt;
+                        &lt;/LinearLayout&gt;
+                    &lt;/com.google.android.material.card.MaterialCardView&gt;
+                &lt;/LinearLayout&gt;
+            &lt;/com.google.android.material.card.MaterialCardView&gt;
+
+            &lt;com.google.android.material.card.MaterialCardView
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimaryDark&quot;</span>
+                <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;16dp&quot;</span><span class="s0">&gt;</span>
+
+                &lt;LinearLayout
+                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                    <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                    &lt;TextView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                        <span class="s1">android:text</span><span class="s2">=&quot;UE 2&quot;</span>
+                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+                        <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                    &lt;com.google.android.material.card.MaterialCardView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;8dp&quot;</span>
+                        <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                        <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;8dp&quot;</span><span class="s0">&gt;</span>
+
+                        &lt;LinearLayout
+                            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                            &lt;TextView
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                <span class="s1">android:text</span><span class="s2">=&quot;M3201&quot;</span>
+                                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                                <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                            &lt;LinearLayout
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;8dp&quot;</span>
+                                <span class="s1">android:background</span><span class="s2">=&quot;@color/white&quot;</span>
+                                <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Ecrit 1&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;2.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Ecrit 2&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;5.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;CC Python&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;10&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+                            &lt;/LinearLayout&gt;
+                        &lt;/LinearLayout&gt;
+                    &lt;/com.google.android.material.card.MaterialCardView&gt;
+
+                    &lt;com.google.android.material.card.MaterialCardView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;8dp&quot;</span>
+                        <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                        <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;8dp&quot;</span><span class="s0">&gt;</span>
+
+                        &lt;LinearLayout
+                            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                            &lt;TextView
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                <span class="s1">android:text</span><span class="s2">=&quot;M3202&quot;</span>
+                                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                                <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                            &lt;LinearLayout
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;8dp&quot;</span>
+                                <span class="s1">android:background</span><span class="s2">=&quot;@color/white&quot;</span>
+                                <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Soutenance&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;2.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Dossier&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;5.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+                            &lt;/LinearLayout&gt;
+                        &lt;/LinearLayout&gt;
+                    &lt;/com.google.android.material.card.MaterialCardView&gt;
+
+                    &lt;com.google.android.material.card.MaterialCardView
+                        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;8dp&quot;</span>
+                        <span class="s1">app:cardBackgroundColor</span><span class="s2">=&quot;@color/colorPrimary&quot;</span>
+                        <span class="s1">app:cardCornerRadius</span><span class="s2">=&quot;8dp&quot;</span><span class="s0">&gt;</span>
+
+                        &lt;LinearLayout
+                            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                            <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                            &lt;TextView
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                <span class="s1">android:text</span><span class="s2">=&quot;M3203&quot;</span>
+                                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                                <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot; </span><span class="s0">/&gt;</span>
+
+                            &lt;LinearLayout
+                                <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+                                <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;8dp&quot;</span>
+                                <span class="s1">android:background</span><span class="s2">=&quot;@color/white&quot;</span>
+                                <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Contrôle&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;2.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+
+                                &lt;View
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+                                    <span class="s1">android:background</span><span class="s2">=&quot;@android:color/darker_gray&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;RelativeLayout
+                                    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+                                    <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentLeft</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;Contrôle Continu&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                    &lt;TextView
+                                        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                                        <span class="s1">android:layout_alignParentRight</span><span class="s2">=&quot;true&quot;</span>
+                                        <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+                                        <span class="s1">android:layout_margin</span><span class="s2">=&quot;16dp&quot;</span>
+                                        <span class="s1">android:fontFamily</span><span class="s2">=&quot;@font/raleway_medium&quot;</span>
+                                        <span class="s1">android:text</span><span class="s2">=&quot;5.5&quot;</span>
+                                        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/colorSecondary&quot;</span>
+                                        <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+                                &lt;/RelativeLayout&gt;
+                            &lt;/LinearLayout&gt;
+                        &lt;/LinearLayout&gt;
+                    &lt;/com.google.android.material.card.MaterialCardView&gt;
+                &lt;/LinearLayout&gt;
+            &lt;/com.google.android.material.card.MaterialCardView&gt;
+        &lt;/LinearLayout&gt;
+    &lt;/LinearLayout&gt;
+&lt;/androidx.core.widget.NestedScrollView&gt;</pre>
+</body>
+</html>

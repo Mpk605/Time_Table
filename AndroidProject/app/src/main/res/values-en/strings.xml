@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Table</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <!-- Navigation Drawer -->
+    <string name="settings">Settings</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="welcome_msg">Welcome %1$s</string>
+
+    <!-- Grades popup -->
+    <string name="reference">Reference:</string>
+    <string name="coef">Coefficient:</string>
+    <string name="average">Average:</string>
+    <string name="module">Module:</string>
+    <string name="UE">UE:</string>
+    <string name="lModules">Modules list:</string>
+    <string name="lGrades">Grades list:</string>
+    <string name="lastUpdate">Coefficients were last updated on the</string>
+
+    <string name="noGrades">There is no grades yes</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="notShared">Not shared</string>
+    <string name="na">n/a</string>
+    <string name="action_settings">Settings</string>
+    <string name="emptyEmail">Please, enter your username</string>
+    <string name="emptyPassword">Please, enter your password</string>
+    <string name="exam">Exam room</string>
+    <string name="grades">Grades</string>
+    <string name="unknown">unknown</string>
+
+    <string name="dep">Department</string>
+    <string name="login">Connect</string>
+    <string name="loginTip">Connect with your university credentials</string>
+    <string name="logo_desc">IUT Informatique logo, red and white</string>
+    <string name="password">Password</string>
+    <string name="wrongCred">Wrong username or password</string>
+    <string name="ohno">Oh no !</string>
+    <string name="map">Maps</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="no_internet">You are not connected to the internet</string>
+    <string name="timetable">Courses</string>
+    <string name="username">Username</string>
+</resources>

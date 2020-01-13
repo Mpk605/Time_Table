@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Time Table</string>
+    <string name="map">Plans</string>
+    <string name="timetable">Cours</string>
+    <string name="grades">Notes</string>
+
+    <string name="dep">Département</string>
+    <string name="exam">Salle d\'examen</string>
+
+
+    <!--  Login Activity  -->
+    <string name="oups" translatable="false">Oups</string>
+    <string name="login">Se connecter</string>
+    <string name="password">Mot de passe</string>
+    <string name="username">Identifiant</string>
+    <string name="logo_desc">Logo de l\'IUT Informatique Rangueil, rouge et blanc</string>
+    <string name="emptyEmail">Veuillez entrer un identifiant</string>
+    <string name="emptyPassword">Veuillez entrer un mot de passe</string>
+    <string name="wrongCred">Mot de passe ou identifiant incorrect</string>
+    <string name="loginTip">Connectez-vous avec vos identifiants IUT</string>
+
+    <!--  Login Activity – No Internet -->
+    <string name="ohno">Oh non !</string>
+    <string name="no_internet">Vous n\'avez pas de connexion à Internet</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wednesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">Samedi</string>
+    <string name="sunday">Dimanche</string>
+
+    <!-- Navigation Drawer -->
+    <string name="welcome_msg">Bienvenue %1$s</string>
+    <string name="settings">Options</string>
+    <string name="disconnect">Se déconnecter</string>
+
+    <!-- Grades popup -->
+    <string name="reference">Référence :</string>
+    <string name="coef">Coefficient :</string>
+    <string name="average">Moyenne :</string>
+    <string name="module">Module :</string>
+    <string name="UE">UE :</string>
+    <string name="lModules">Liste des modules :</string>
+    <string name="lGrades">Liste des notes :</string>
+
+    <string name="noGrades">Il n\'y a pas encore de notes</string>
+    <string name="unavailable">Non disponible</string>
+    <string name="notShared">Non diffusée</string>
+    <string name="na">n/a</string>
+    <string name="unknown">inconnu</string>
+    <string name="lastUpdate">Les coefficients on été mis à jours pour la dernière fois dans la base de données le </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>*
+
+    <string-array name="floor_array">
+        <item>RDC</item>
+        <item>Étage 1</item>
+        <item>Étage 2</item>
+    </string-array>
+
+</resources>

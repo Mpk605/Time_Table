@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_room_24px"
+        android:title="@string/map" />
+
+    <item
+        android:id="@+id/navigation_timetable"
+        android:icon="@drawable/ic_today_24px"
+        android:title="@string/timetable" />
+
+    <item
+        android:id="@+id/navigation_grades"
+        android:icon="@drawable/ic_assessment_24px"
+        android:title="@string/grades" />
+
+</menu>

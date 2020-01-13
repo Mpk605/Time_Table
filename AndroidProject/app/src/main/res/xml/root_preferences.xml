@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <Preference
+            app:icon="@drawable/ic_exit_to_app_24px"
+            app:key="@string/disconnect"
+            app:title="@string/disconnect">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.jules.takemehomecountrytable.Disconnect"
+                android:targetPackage="com.jules.takemehomecountrytable" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

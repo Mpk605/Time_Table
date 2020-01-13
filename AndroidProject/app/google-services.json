@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "735278707818",
+    "firebase_url": "https://timetable-e2e92.firebaseio.com",
+    "project_id": "timetable-e2e92",
+    "storage_bucket": "timetable-e2e92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735278707818:android:732795ebba2d8e37218613",
+        "android_client_info": {
+          "package_name": "com.jules.takemehomecountrytable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735278707818-eiug7b5o1ehnf2g613gd1udd3hl0nnca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzcF11EjC8z_gvfrex0LjHnDWLWcQNaUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735278707818-eiug7b5o1ehnf2g613gd1udd3hl0nnca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

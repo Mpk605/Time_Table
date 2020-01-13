@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="user infos">
+        <Preference android:key="username" />
+        <Preference android:key="password" />
+        <Preference android:key="email" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Cipher Options">
+        <Preference android:key="iv" />
+        <Preference android:key="encryption_key" />
+    </PreferenceCategory>
+</PreferenceScreen>
