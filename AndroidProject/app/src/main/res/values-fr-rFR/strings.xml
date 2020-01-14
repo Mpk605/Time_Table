@@ -47,4 +47,5 @@
     <string name="no_internet">Vous n\'avez pas de connexion à Internet</string>
     <string name="timetable">Cours</string>
     <string name="username">Identifiant</string>
+    <string name="tuteur_s">Tuteur(s) :</string>
 </resources>

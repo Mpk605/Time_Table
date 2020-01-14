@@ -75,7 +75,8 @@
     <string name="attachment_title" translatable="false">Download incoming attachments</string>
     <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
     </string>
-    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>*
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="tuteur_s">Tuteur(s) :</string>*
 
     <string-array name="floor_array">
         <item>RDC</item>
